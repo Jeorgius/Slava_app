@@ -5,6 +5,8 @@ window.onload = function () {
   r = d.getElementById("Result");
 
   c.onclick = () => {
-  	r.innerText = init.value.replace(/[\n]/g, '; ');
+  	r.value = init.value.replace(/[\n]/g, '; ').replace(/; $/,'');
+  	r.select();
+  	d.execCommand('copy');
   };
 };
