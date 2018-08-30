@@ -1,0 +1,54 @@
+body {
+    background-color: #000;
+    color: whitesmoke;
+    font-family: Calibri, Arial sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+ul, ul li {
+    list-style: none;
+    padding:0;
+}
+h2 {
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 24pt;
+    margin: 35px 0;
+}
+.header {
+    margin: 0 10px;
+    padding-left: 30px;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+a:visited {
+    color: whitesmoke;
+    outline: none;
+}
+a:link {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Login_forms {
+    width: 60%;
+    color:whitesmoke;
+    /*margin: 0 10px 5px 5px;*/
+    background: transparent;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: inherit;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+button {
+    font-size: 20px;
+}
+
+#Result{
+    font-size: 15px;
+}
+
